@@ -1,6 +1,6 @@
-| Nama      | Muhammad Din Al Ayubi |
+| Nama      | Novianto Andi Hardiansyah |
 | ----------- | ----------- |
-| NIM     | 312210293       |
+| NIM     | 312210316       |
 | Kelas   | TI.22.A.3        |
 # Lab9web
 ## Instruksi Praktikum
@@ -8,9 +8,9 @@
 2. Buat folder baru dengan nama lab9_php_modular pada docroot webserver(htdocs)
 3. Ikuti langkah-langkah praktikum
 ## Jalankan XAMPP dan akses ```http://localhost/phpmyadmin/``` untuk membuat database.
-![Gambar](web/1.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/1.png)
 ## Buat file ```lab9_php_modular``` pada root directory web server ```(c:\xampp\htdocs)```
-![Gambar](web/2.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/2.png)
 ## Buat file baru dengan nama ```header.php```
 ```python
 <!DOCTYPE html>
@@ -63,12 +63,12 @@
 <?php require('footer.php'); ?>
 ```
 ## Output
-![Gambar](web/home.png)
-![Gambar](web/about.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/home.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/about.png)
 ## Pertanyaan dan Tugas
 ## Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama. Laporan Praktikum
 ## Buat file ```lab9_tugas``` pada root directory web server ```(c:\xampp\htdocs)```
-![Gambar](web/3.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/3.png)
 ## Buat file baru dengan nama ```koneksi.php```
 ```python
 <?php
@@ -144,7 +144,7 @@ $result = mysqli_query($conn, $sql);
 </html>
 ```
 ## Output
-![Gambar](web/4.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/4.png)
 ## Buat file baru dengan nama ```tambah.php```
 ```python
 <?php
@@ -243,8 +243,8 @@ if (isset($_POST['submit']))
 </html>
 ```
 ## Output
-![Gambar](web/5.png)
-![Gambar](web/6.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/5.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/6.png)
 ## Buat file baru dengan nama ```ubah.php```
 ```python
 <?php
@@ -354,8 +354,8 @@ $data['id_barang'];?>" />
 </html>
 ```
 ## Output
-![Gambar](web/7.png)
-![Gambar](web/8.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/7.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/8.png)
 ## Buat file baru dengan nama ```Hapus.php```
 ```python
 <?php
@@ -366,7 +366,7 @@ $result = mysqli_query($conn, $sql);
 header('location: index.php');
 ?>
 ```
-![Gambar](web/9.png)
+![Gambar](https://github.com/buzzz99/lab9web/blob/main/9.png)
 ## Buat file baru dengan nama ```style.css```
 ```python
 /* import google font */
